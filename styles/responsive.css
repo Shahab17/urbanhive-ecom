@@ -18,6 +18,16 @@
        width: 300px;
         
     }
+    .products-container{
+        grid-template-columns: 1fr; 
+    }
+    .product-details{
+        width: 100%;
+        /* padding: 20px;    */
+    }
+    .product-details img{
+        width: 100%;
+    }
      
 }
 
@@ -30,5 +40,16 @@
     }
     .banner-img img{
         margin-top: 50px;
+    }
+    .products-container{
+        grid-template-columns: repeat(2, 1fr);
+         
+    }
+    .product-details{
+        width: 100%;
+        /* padding: 20px;    */
+    }
+    .product-details img{
+        width: 100%;
     }
 }
