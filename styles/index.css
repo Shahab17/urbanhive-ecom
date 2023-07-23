@@ -161,3 +161,53 @@ span{
     font-size: 20px;
     font-weight: 700;
 }
+
+/* discount offer related styles */
+.discount-container{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    background-color: beige;
+    height: 400px;
+    border-radius: 7px;
+}
+.discount-img{
+    position: relative;
+}
+.discount-img img{
+    border-radius: 5px;
+}
+.offer{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgba(196, 49, 23, 0.904);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    box-shadow: 7px 7px 15px rgb(53, 51, 51);
+}
+.upto{
+    font-size: 12px;
+   display: flex;
+   justify-content: center;
+}
+ 
+.discount-content p{
+     width: 500px;  
+     font-size: 20px;
+}
+.discount-content h3{
+    font-size: 26px;
+}
+.discount-content .btn{
+    padding: 15px 25px;
+}
