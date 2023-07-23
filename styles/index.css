@@ -32,7 +32,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1400px;
+    max-width: 90%;
     margin: 0 auto;  
 }
 .img-title{
@@ -81,7 +81,7 @@ span{
     padding: 50px;
     gap: 20px;
     text-align: center;
-    width: 70%; 
+    max-width: 80%;
     margin: 0 auto;
     margin-top: 3rem;
     border-radius: 7px;
@@ -121,4 +121,44 @@ span{
 .banner-img img{ 
     border-radius: 7px;
     box-shadow: 10px 10px 30px grey;
+}
+
+/* All product related styles */
+.products-container{
+    max-width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+    border: 2px solid red;
+}
+.product-details{
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px gray;
+}
+.product-details img{
+    border-radius: 5px;
+}
+.product-title-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.product-title-icons span{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.icons{  
+    display: flex; 
+}
+.para{
+    text-align: justify;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
 }
