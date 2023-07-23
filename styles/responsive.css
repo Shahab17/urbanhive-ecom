@@ -50,7 +50,7 @@
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .banner-container{
+    .banner-container, .discount-container{
         flex-direction: column;
     }
     .banner-img img{
@@ -65,6 +65,9 @@
     }
     .product-details img{
         width: 100%;
+    }
+    .discount-container{
+        height: 100%;
     }
 }
 
