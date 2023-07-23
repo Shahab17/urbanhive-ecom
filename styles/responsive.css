@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
     
-    .nav-container, .content-list, .banner-btn{
+    .nav-container, .content-list, .banner-btn, .discount-container{
         flex-direction: column;
     }
     .content-list li{
@@ -28,6 +28,21 @@
     .product-details img{
         width: 100%;
     }
+    .discount-container{
+        width: 100%;
+        height: 100%;
+    }
+    .discount-content p{
+        width: auto;
+    }
+    .discount-img img{
+        width: 100%;
+    }
+    .offer{
+        top: 0;
+        left: 75%;
+    }
+    
      
 }
 

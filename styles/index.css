@@ -172,6 +172,7 @@ span{
     background-color: beige;
     height: 400px;
     border-radius: 7px;
+    padding: 20px;
 }
 .discount-img{
     position: relative;
