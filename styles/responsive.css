@@ -1,12 +1,22 @@
 @media screen and (max-width: 576px) {
     
-    .nav-container, .content-list{
+    .nav-container, .content-list, .banner-btn{
         flex-direction: column;
     }
-    
     .content-list li{
         /* margin-top: 15px; */
         margin-bottom: 20px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 300px;
+        padding: 30px;   
+    }
+    .banner-img img {
+       width: 300px;
+        
     }
      
 }
@@ -15,5 +25,10 @@
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img img{
+        margin-top: 50px;
+    }
 }
