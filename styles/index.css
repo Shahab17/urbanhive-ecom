@@ -128,9 +128,8 @@ span{
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    /* justify-content: center;
-    align-items: center; */
+    gap: 30px;  
+    align-items: center;
 }
 .product-details{
     width: 350px;
@@ -203,8 +202,9 @@ span{
 }
  
 .discount-content p{
-     width: 500px;  
+     width: 400px;  
      font-size: 20px;
+    text-align: justify;
 }
 .discount-content h3{
     font-size: 26px;
