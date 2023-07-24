@@ -200,7 +200,6 @@ span{
    display: flex;
    justify-content: center;
 }
- 
 .discount-content p{
      width: 400px;  
      font-size: 20px;
@@ -211,4 +210,29 @@ span{
 }
 .discount-content .btn{
     padding: 15px 25px;
+}
+/* customer reviews related styles */
+.customers-review-container{
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;  
+}
+.review-container{
+    width: 300px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: azure;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-circle-user{
+   font-size: 30px;
+    
 }
